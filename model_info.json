@@ -1,0 +1,36 @@
+{
+  "model_type": "spaCy + scikit-learn Pipeline",
+  "total_genres": 24,
+  "genres": [
+    "Action",
+    "Adventure",
+    "Animation",
+    "Biography",
+    "Comedy",
+    "Crime",
+    "Documentary",
+    "Drama",
+    "Family",
+    "Fantasy",
+    "Film-Noir",
+    "History",
+    "Horror",
+    "Music",
+    "Musical",
+    "Mystery",
+    "News",
+    "Romance",
+    "Sci-Fi",
+    "Short",
+    "Sport",
+    "Thriller",
+    "War",
+    "Western"
+  ],
+  "preprocessing": "spaCy tokenization + lemmatization",
+  "files_created": [
+    "movie_genre_model.pkl",
+    "label_encoder.pkl",
+    "genre_list.json"
+  ]
+}
